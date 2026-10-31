@@ -1,0 +1,627 @@
+{
+  "modelo": "gemini-3.5-flash-lite",
+  "versionPrompt": "2026-10-30.1",
+  "grabadoEl": "2026-10-31T02:40:38.915Z",
+  "respuestas": {
+    "e45ba34c72d1046d": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B con 51-200 empleados en Latinoamérica.",
+          "Presupuesto mensual entre 3k y 10k USD.",
+          "Necesidad concreta de campañas de LinkedIn y SEO.",
+          "Urgencia clara para arrancar en diciembre."
+        ],
+        "siguiente_paso": "Contactar hoy mismo para coordinar una reunión de descubrimiento.",
+        "resumen": "Lead calificado de Andina Logística con presupuesto y necesidad concreta de generación de demanda en LinkedIn y SEO para arrancar en diciembre."
+      },
+      "uso": {
+        "entrada": 683,
+        "salida": 126
+      }
+    },
+    "c6c05d69df8f2e90": {
+      "json": {
+        "score": 95,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 11-50 empleados",
+          "Presupuesto mensual entre 3k y 10k USD",
+          "Necesidad concreta de configurar HubSpot y lead scoring",
+          "Urgencia para el primer trimestre"
+        ],
+        "siguiente_paso": "contactar hoy",
+        "resumen": "Lead ideal: SaaS B2B de 11-50 empleados con presupuesto de 3k-10k USD y urgencia para ordenar su HubSpot y lead scoring en Q1."
+      },
+      "uso": {
+        "entrada": 677,
+        "salida": 114
+      }
+    },
+    "939f86a617409ef2": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "B2B de 201-500 empleados",
+          "Presupuesto superior a 10k USD",
+          "Necesidad clara de ABM con fecha de inicio"
+        ],
+        "siguiente_paso": "Contactar hoy mismo para coordinar una reunión de discovery.",
+        "resumen": "Empresa industrial de gran porte busca ABM para minería con presupuesto aprobado y arranque inmediato."
+      },
+      "uso": {
+        "entrada": 678,
+        "salida": 102
+      }
+    },
+    "230440cfc4430c98": {
+      "json": {
+        "score": 100,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 51-200 empleados con encaje ideal.",
+          "Presupuesto mensual superior a USD 10.000.",
+          "Necesidad concreta de pipeline para campañas pagas.",
+          "Urgencia clara con fecha límite para marzo."
+        ],
+        "siguiente_paso": "Contactar hoy mismo para agendar una reunión de descubrimiento.",
+        "resumen": "Lead excelente de BrightLedger en US con gran presupuesto y urgencia para campañas de LinkedIn y Google Ads antes de marzo."
+      },
+      "uso": {
+        "entrada": 675,
+        "salida": 151
+      }
+    },
+    "5799774b60c89826": {
+      "json": {
+        "score": 95,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 11-50 empleados.",
+          "Presupuesto mensual entre 3k y 10k USD.",
+          "Necesidad concreta de pipeline y software.",
+          "Urgencia alta para arrancar este mes."
+        ],
+        "siguiente_paso": "Contactar hoy mismo para coordinar una reunión de descubrimiento.",
+        "resumen": "ClinicSoft es una empresa B2B con presupuesto y urgencia para arrancar con SEO, CRM y generación de demos este mismo mes."
+      },
+      "uso": {
+        "entrada": 671,
+        "salida": 122
+      }
+    },
+    "f2a237ac46de3bed": {
+      "json": {
+        "score": 95,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 51-200 empleados con excelente encaje.",
+          "Presupuesto mensual entre 3k y 10k USD, dentro del rango.",
+          "Necesidad concreta de generación de demanda y contenidos técnicos.",
+          "Urgencia alta con lanzamiento planificado para febrero."
+        ],
+        "siguiente_paso": "Contactar hoy para agendar una llamada de descubrimiento y armar la propuesta.",
+        "resumen": "AgroDatos busca generar leads técnicos con fecha de lanzamiento en febrero y cuenta con el presupuesto adecuado."
+      },
+      "uso": {
+        "entrada": 665,
+        "salida": 155
+      }
+    },
+    "4e9cfe0aa50b8dde": {
+      "json": {
+        "score": 95,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 11-50 empleados en España",
+          "Presupuesto mensual entre 3k y 10k USD",
+          "Necesidad concreta de SEO y campañas",
+          "Urgencia alta con pedido de propuesta esta semana"
+        ],
+        "siguiente_paso": "contactar hoy",
+        "resumen": "Lead ideal de LegalBox, empresa B2B en España con 11-50 empleados, presupuesto de 3k-10k USD y alta urgencia para arrancar con SEO y campañas."
+      },
+      "uso": {
+        "entrada": 669,
+        "salida": 132
+      }
+    },
+    "fd6bd5306f07a7a1": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B con 51-200 empleados",
+          "Presupuesto mensual mayor a 10k USD",
+          "Necesidad concreta de outbound y LinkedIn Ads"
+        ],
+        "siguiente_paso": "Contactar hoy mismo para coordinar una reunion de discovery.",
+        "resumen": "Lead altamente calificado de CloudOps LATAM con presupuesto robusto y necesidad concreta de generacion de demanda B2B."
+      },
+      "uso": {
+        "entrada": 674,
+        "salida": 107
+      }
+    },
+    "331b6a2529da6439": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 11-50 empleados con encaje ideal.",
+          "Presupuesto mensual entre 3k y 10k USD.",
+          "Necesidad concreta de generacion de demanda y HubSpot.",
+          "Urgencia alta para arrancar cuanto antes."
+        ],
+        "siguiente_paso": "contactar hoy",
+        "resumen": "Lead A+ para ShiftPlan, SaaS B2B con urgencia y presupuesto para demanda y HubSpot."
+      },
+      "uso": {
+        "entrada": 676,
+        "salida": 106
+      }
+    },
+    "1948f71c8cf572a0": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 201-500 empleados del sector industrial.",
+          "Presupuesto superior a USD 10.000 mensuales.",
+          "Pedido concreto de SEO y campañas pagas para generar demanda.",
+          "Presupuesto anual ya aprobado con alta urgencia."
+        ],
+        "siguiente_paso": "Contactar hoy.",
+        "resumen": "Empresa industrial mediana con presupuesto aprobado y necesidad concreta de SEO y campañas. Lead altamente calificado para cerrar rápido."
+      },
+      "uso": {
+        "entrada": 681,
+        "salida": 119
+      }
+    },
+    "248616562dfa6277": {
+      "json": {
+        "score": 90,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 51-200 empleados en logística.",
+          "Presupuesto de 3k a 10k USD.",
+          "Necesidad concreta de pipeline para enero."
+        ],
+        "siguiente_paso": "contactar hoy",
+        "resumen": "LogiX busca demos de su software de rutas en Latam con presupuesto y fecha definida. Lead ideal para cerrar reunión."
+      },
+      "uso": {
+        "entrada": 673,
+        "salida": 102
+      }
+    },
+    "d0a34445f5030faa": {
+      "json": {
+        "score": 95,
+        "tier": "A",
+        "motivos": [
+          "B2B de 51-200 empleados con encaje perfecto.",
+          "Presupuesto de 3k-10k USD dentro del rango de la agencia.",
+          "Necesidad concreta de campañas de LinkedIn y SEO."
+        ],
+        "siguiente_paso": "Contactar hoy mismo para coordinar llamada de cierre.",
+        "resumen": "Empresa de logística en Argentina con presupuesto y urgencia para arrancar en diciembre. Lead Tier A altamente calificado."
+      },
+      "uso": {
+        "entrada": 679,
+        "salida": 115
+      }
+    },
+    "0aa6954d5e6738bd": {
+      "json": {
+        "score": 55,
+        "tier": "B",
+        "motivos": [
+          "Estudio contable B2B de 1-10 empleados (20 puntos).",
+          "Presupuesto mensual de 1k-3k USD, por debajo del mínimo ideal (10 puntos).",
+          "Pedido concreto de Google Ads para conseguir clientes (20 puntos).",
+          "Interés sin una fecha de urgencia específica (5 puntos)."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Estudio contable chico busca clientes con Google Ads pero su presupuesto es inferior al mínimo de la agencia."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 160
+      }
+    },
+    "f1144c4e075b6259": {
+      "json": {
+        "score": 50,
+        "tier": "B",
+        "motivos": [
+          "B2B de 11-50 empleados pero modelo B2C (mueblería)",
+          "Presupuesto adecuado de 3k-10k USD",
+          "Necesidad enfocada en ventas online y Google"
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Lead B2C de comercio minorista con buen presupuesto pero encaje parcial con los servicios B2B de la agencia."
+      },
+      "uso": {
+        "entrada": 662,
+        "salida": 114
+      }
+    },
+    "1ee5893bde85803a": {
+      "json": {
+        "score": 55,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B de 501+ empleados",
+          "Presupuesto mensual entre 3k y 10k USD",
+          "Necesidad vaga de informacion sin fecha concreta"
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Lead B2B grande con presupuesto adecuado pero interés vago y sin urgencia clara."
+      },
+      "uso": {
+        "entrada": 661,
+        "salida": 98
+      }
+    },
+    "8b2fb9e28a9f9e8c": {
+      "json": {
+        "score": 60,
+        "tier": "B",
+        "motivos": [
+          "B2B de 11-50 empleados.",
+          "Presupuesto de 1k-3k (USD) por debajo del ideal de la agencia.",
+          "Demanda concreta de SEO para software."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "NubeHR busca SEO para su software pero su presupuesto es menor a USD 3k, aunque hay encaje parcial."
+      },
+      "uso": {
+        "entrada": 663,
+        "salida": 109
+      }
+    },
+    "136c87b38dcb64fb": {
+      "json": {
+        "score": 60,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B de 51-200 empleados.",
+          "Presupuesto mensual de 1k-3k USD, por debajo del mínimo ideal.",
+          "Necesidad alineada con campañas en LinkedIn pero sin fecha definida."
+        ],
+        "siguiente_paso": "Enviar un email con un caso de éxito relevante y una propuesta de llamada.",
+        "resumen": "Lead B2B del sector vitivinícola con 51-200 empleados y presupuesto ajustado (1k-3k USD) que busca distribuidores en EE.UU. sin urgencia."
+      },
+      "uso": {
+        "entrada": 664,
+        "salida": 162
+      }
+    },
+    "2fd2c0d967f8899b": {
+      "json": {
+        "score": 60,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B de 11 a 50 empleados.",
+          "Presupuesto no especificado.",
+          "Necesidad vaga de conseguir clientes pymes sin definir el servicio exacto."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Castillo Seguros busca clientes pymes pero no tiene claro el presupuesto ni el servicio exacto que necesita contratar."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 125
+      }
+    },
+    "be80292c19caf9bd": {
+      "json": {
+        "score": 55,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B con 51-200 empleados.",
+          "Presupuesto mensual bajo de 1k-3k USD.",
+          "Necesidad de contenidos pero con alcance acotado."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Lead B2B de tamaño adecuado pero con presupuesto por debajo del mínimo ideal, interesado en contenidos."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 103
+      }
+    },
+    "604934fcc2c7bce9": {
+      "json": {
+        "score": 35,
+        "tier": "C",
+        "motivos": [
+          "Es una empresa B2C (ecommerce), lo que da un encaje bajo.",
+          "El presupuesto está en el rango de 3k-10k.",
+          "Buscan campañas de Meta Ads para ecommerce, un servicio fuera del foco B2B principal."
+        ],
+        "siguiente_paso": "Nutrición por email o descartar si no corresponde.",
+        "resumen": "Lead B2C de ecommerce buscando Meta Ads. Presupuesto adecuado pero fuera del encaje B2B de la agencia."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 145
+      }
+    },
+    "1e4095ca6ef14c76": {
+      "json": {
+        "score": 50,
+        "tier": "B",
+        "motivos": [
+          "B2B de 11 a 50 empleados",
+          "Presupuesto mensual bajo de 1k-3k USD",
+          "Necesidad de SEO y generación de demanda para obras industriales"
+        ],
+        "siguiente_paso": "Enviar email con un caso de éxito industrial y propuesta de llamada para evaluar encaje de presupuesto.",
+        "resumen": "Lead B2B de ingeniería con presupuesto acotado pero necesidad concreta de SEO y obras industriales."
+      },
+      "uso": {
+        "entrada": 661,
+        "salida": 112
+      }
+    },
+    "10300b6dce2b7509": {
+      "json": {
+        "score": 55,
+        "tier": "B",
+        "motivos": [
+          "B2B de 1-10 empleados.",
+          "Presupuesto mensual de 1k-3k USD.",
+          "Necesidad alineada con campañas en LinkedIn."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Consultora de procesos pequeña buscando armar un embudo en LinkedIn con presupuesto ajustado."
+      },
+      "uso": {
+        "entrada": 665,
+        "salida": 94
+      }
+    },
+    "04497d939fbc00f7": {
+      "json": {
+        "score": 65,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B de 201-500 empleados en España.",
+          "Presupuesto mensual no especificado.",
+          "Necesidad vaga de información general sobre casos de éxito."
+        ],
+        "siguiente_paso": "Enviar un email con un caso de éxito del sector logística y una propuesta de llamada corta.",
+        "resumen": "Lead B2B del sector logística en España con tamaño adecuado pero presupuesto y necesidad vagos."
+      },
+      "uso": {
+        "entrada": 665,
+        "salida": 130
+      }
+    },
+    "bb773b7c136c9261": {
+      "json": {
+        "score": 55,
+        "tier": "B",
+        "motivos": [
+          "Startup B2B de 1-10 empleados.",
+          "Presupuesto mensual bajo de 1k-3k USD.",
+          "Necesidad clara de campañas outbound."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Startup B2B de 1-10 empleados buscando outbound pero con presupuesto por debajo del mínimo ideal."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 98
+      }
+    },
+    "e3bce112c50a2cf4": {
+      "json": {
+        "score": 75,
+        "tier": "A",
+        "motivos": [
+          "Empresa B2B de 51-200 empleados con buen encaje.",
+          "Presupuesto no especificado, pero maneja necesidades de demanda.",
+          "Pedido concreto de SEO y email marketing."
+        ],
+        "siguiente_paso": "contactar hoy",
+        "resumen": "Lead de Andina Logística con interés en SEO y email marketing comercial. Buen encaje por tamaño y perfil B2B."
+      },
+      "uso": {
+        "entrada": 666,
+        "salida": 127
+      }
+    },
+    "a0ed053241afe396": {
+      "json": {
+        "score": 60,
+        "tier": "B",
+        "motivos": [
+          "Empresa B2B de 11-50 empleados.",
+          "Presupuesto mensual de 1k-3k USD.",
+          "Necesidad alineada con posicionamiento pero sin urgencia."
+        ],
+        "siguiente_paso": "email con un caso y propuesta de llamada",
+        "resumen": "Empresa B2B de software con presupuesto ajustado para arrancar con diagnóstico."
+      },
+      "uso": {
+        "entrada": 663,
+        "salida": 99
+      }
+    },
+    "bf27453c4945a489": {
+      "json": {
+        "score": 0,
+        "tier": "C",
+        "motivos": [
+          "Sin empresa real, busca pasantía siendo estudiante",
+          "Presupuesto menor a 1k USD",
+          "No cumple con el perfil B2B objetivo"
+        ],
+        "siguiente_paso": "Descartar por no corresponder al servicio de la agencia.",
+        "resumen": "Lead descartado por ser estudiante buscando pasantía y no un cliente B2B."
+      },
+      "uso": {
+        "entrada": 651,
+        "salida": 117
+      }
+    },
+    "ba571617b75db2f3": {
+      "json": {
+        "score": 0,
+        "tier": "C",
+        "motivos": [
+          "Se trata de un freelancer que busca trabajo y no de una empresa cliente.",
+          "Presupuesto menor a 1k USD.",
+          "Necesidad no alineada con los servicios de la agencia."
+        ],
+        "siguiente_paso": "nutricion por email o descartar si no corresponde",
+        "resumen": "Lead descartado porque es un particular buscando empleo como community manager y no un cliente B2B."
+      },
+      "uso": {
+        "entrada": 649,
+        "salida": 102
+      }
+    },
+    "2ab4bc1939dec6e2": {
+      "json": {
+        "score": 20,
+        "tier": "C",
+        "motivos": [
+          "Empresa B2C de pastelería con 1-10 empleados",
+          "Presupuesto menor a 1k USD al mes",
+          "Necesidad enfocada en seguidores de Instagram, algo que la agencia no vende"
+        ],
+        "siguiente_paso": "Descartar por no corresponder al perfil B2B ni al presupuesto mínimo.",
+        "resumen": "Lead de pastelería B2C buscando redes sociales con presupuesto muy bajo. No es fit para Nodo Growth."
+      },
+      "uso": {
+        "entrada": 652,
+        "salida": 141
+      }
+    },
+    "03840eebb931ec1c": {
+      "json": {
+        "score": 10,
+        "tier": "C",
+        "motivos": [
+          "B2B de 1-10 empleados o B2C",
+          "Presupuesto menor a 1k USD",
+          "Necesidad de logos y volantes que la agencia no vende"
+        ],
+        "siguiente_paso": "nutrición por email o descartar si no corresponde",
+        "resumen": "Lead B2C o comercio chico con presupuesto muy bajo que busca diseño de logo y volantes, fuera del servicio de la agencia."
+      },
+      "uso": {
+        "entrada": 654,
+        "salida": 111
+      }
+    },
+    "9e50f478c00300a6": {
+      "json": {
+        "score": 10,
+        "tier": "C",
+        "motivos": [
+          "B2B de 11-50 empleados pero busca revender servicios.",
+          "Presupuesto menor a 1k USD.",
+          "Necesidad de revender servicios que la agencia no maneja bajo ese modelo."
+        ],
+        "siguiente_paso": "nutrición por email o descartar si no corresponde",
+        "resumen": "Lead descartable ya que busca revender servicios al menor costo y tiene presupuesto muy bajo."
+      },
+      "uso": {
+        "entrada": 660,
+        "salida": 107
+      }
+    },
+    "8aeee39afaa17221": {
+      "json": {
+        "score": 10,
+        "tier": "C",
+        "motivos": [
+          "Es un negocio B2C, especificamente una barberia.",
+          "El presupuesto mensual es menor a 1k USD, por debajo del minimo.",
+          "La necesidad es de manejo de redes sociales, algo que la agencia no vende."
+        ],
+        "siguiente_paso": "Nutricion por email o descartar si no corresponde.",
+        "resumen": "Lead de barberia B2C con bajo presupuesto y necesidad de manejo de redes sociales que no encaja con los servicios de Nodo Growth."
+      },
+      "uso": {
+        "entrada": 653,
+        "salida": 119
+      }
+    },
+    "9104d3b9bec98c67": {
+      "json": {
+        "score": 15,
+        "tier": "C",
+        "motivos": [
+          "Particular sin empresa real",
+          "Presupuesto no informado",
+          "Necesidad vaga de precios"
+        ],
+        "siguiente_paso": "nutrición por email o descartar si no corresponde",
+        "resumen": "Lead de un particular que consulta precios de manera vaga sin presupuesto definido."
+      },
+      "uso": {
+        "entrada": 644,
+        "salida": 77
+      }
+    },
+    "5f681e04c72f7608": {
+      "json": {
+        "score": 10,
+        "tier": "C",
+        "motivos": [
+          "Empresa de 1 a 10 empleados fuera del segmento ideal",
+          "Presupuesto menor a 1k USD mensuales",
+          "Necesidad de una página web barata, algo que la agencia no vende"
+        ],
+        "siguiente_paso": "nutrición por email o descartar si no corresponde",
+        "resumen": "Lead descartado por ser un emprendimiento pequeño con bajo presupuesto que busca una web económica."
+      },
+      "uso": {
+        "entrada": 652,
+        "salida": 128
+      }
+    },
+    "076b96c7555dff10": {
+      "json": {
+        "score": 10,
+        "tier": "C",
+        "motivos": [
+          "Campañas políticas quedan fuera del servicio de la agencia.",
+          "Presupuesto de 1k-3k por debajo del mínimo de 3.000 USD."
+        ],
+        "siguiente_paso": "Descartar por no corresponder al nicho B2B de la agencia.",
+        "resumen": "Lead descartado por solicitar campañas políticas y tener presupuesto menor al mínimo."
+      },
+      "uso": {
+        "entrada": 657,
+        "salida": 118
+      }
+    },
+    "80bc9f6a04991e27": {
+      "json": {
+        "score": 30,
+        "tier": "C",
+        "motivos": [
+          "Particular sin empresa real",
+          "Presupuesto no especificado",
+          "Consulta vaga sobre precios sin necesidad de pipeline"
+        ],
+        "siguiente_paso": "Nutrición por email o descartar si no corresponde",
+        "resumen": "Lead particular que consulta precios de forma vaga sin presupuesto definido ni empresa B2B."
+      },
+      "uso": {
+        "entrada": 648,
+        "salida": 106
+      }
+    }
+  }
+}

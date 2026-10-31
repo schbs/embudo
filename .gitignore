@@ -1,0 +1,22 @@
+# claves (solo .env.example va al repo)
+.env*
+!.env.example
+
+# dependencias, compilados y reportes
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+
+# Vercel
+.vercel/
+blob-report/
+lighthouse/*.html
+
+# datos del modo local (CRM, Slack y registro sin cuentas)
+data/dev/

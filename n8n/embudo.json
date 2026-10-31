@@ -1,0 +1,295 @@
+{
+  "name": "Embudo - Leads",
+  "nodes": [
+    {
+      "id": "webhook",
+      "name": "Recibir lead del formulario",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "embudo-lead",
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "embudo-lead",
+        "responseMode": "responseNode",
+        "options": {}
+      }
+    },
+    {
+      "id": "hash",
+      "name": "Calcular hash del token",
+      "type": "n8n-nodes-base.crypto",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ],
+      "parameters": {
+        "action": "hash",
+        "type": "SHA256",
+        "value": "={{ $json.headers['x-embudo-token'] ?? '' }}",
+        "dataPropertyName": "hashToken"
+      }
+    },
+    {
+      "id": "token-ok",
+      "name": "¿Token válido?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.hashToken }}",
+              "rightValue": "SHA256_DE_TU_N8N_WEBHOOK_TOKEN",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "r202",
+      "name": "Responder 202",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        660,
+        -100
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": true } }}",
+        "options": {
+          "responseCode": 202
+        }
+      }
+    },
+    {
+      "id": "r401",
+      "name": "Responder 401",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        660,
+        120
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": false } }}",
+        "options": {
+          "responseCode": 401
+        }
+      }
+    },
+    {
+      "id": "app",
+      "name": "Procesar lead en la app",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        -100
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000,
+      "onError": "continueErrorOutput",
+      "parameters": {
+        "method": "POST",
+        "url": "https://embudo-topaz.vercel.app/api/leads",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-embudo-token",
+              "value": "={{ $('Recibir lead del formulario').item.json.headers['x-embudo-token'] }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($('Recibir lead del formulario').item.json.body) }}",
+        "options": {
+          "timeout": 30000
+        }
+      }
+    },
+    {
+      "id": "fila",
+      "name": "Armar fila del registro",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1100,
+        -160
+      ],
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={{ $json.fila }}",
+        "options": {}
+      }
+    },
+    {
+      "id": "sheets",
+      "name": "Agregar al registro en Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        1320,
+        -160
+      ],
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "TU_ID_DE_PLANILLA"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "registro"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {}
+        },
+        "options": {}
+      },
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "name": "[credencial de la cuenta]"
+        }
+      }
+    },
+    {
+      "id": "falla",
+      "name": "Avisar falla en Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        1100,
+        40
+      ],
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "TU_CANAL_DE_SLACK"
+        },
+        "text": "=⚠️ Embudo: no se pudo procesar un lead después de 3 intentos. Revisar la ejecución {{ $execution.id }} en n8n.",
+        "otherOptions": {}
+      },
+      "credentials": {
+        "slackApi": {
+          "name": "[credencial de la cuenta]"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Recibir lead del formulario": {
+      "main": [
+        [
+          {
+            "node": "Calcular hash del token",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calcular hash del token": {
+      "main": [
+        [
+          {
+            "node": "¿Token válido?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "¿Token válido?": {
+      "main": [
+        [
+          {
+            "node": "Responder 202",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Responder 401",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Responder 202": {
+      "main": [
+        [
+          {
+            "node": "Procesar lead en la app",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Procesar lead en la app": {
+      "main": [
+        [
+          {
+            "node": "Armar fila del registro",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Avisar falla en Slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Armar fila del registro": {
+      "main": [
+        [
+          {
+            "node": "Agregar al registro en Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

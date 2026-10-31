@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Dirección A · Tablero de operaciones (docs/brand.md). Contraste AA medido: el par más bajo es borde/blanco 3,83:1. */
+@theme {
+  --color-fondo: #f5f6f2;
+  --color-blanco: #ffffff;
+  --color-tinta: #141a16;
+  --color-suave: #47534c;
+  --color-pino-50: #e3efe7;
+  --color-pino-700: #1d5a39;
+  --color-pino-800: #123f27;
+  --color-ambar: #e8b23a;
+  --color-ambar-50: #fbf1d6;
+  --color-ambar-texto: #6e4a00;
+  --color-gris-50: #eceeea;
+  --color-gris: #4a524d;
+  --color-borde: #7a857e;
+  --color-linea: #d3d9d2;
+  --color-error: #a3261b;
+  --color-foco: #123f27;
+
+  --font-titulo: var(--font-space-grotesk);
+  --font-sans: var(--font-plex);
+  --radius-panel: 4px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-foco);
+  outline-offset: 2px;
+}
+
+/* El embudo: cada barra crece desde la izquierda al cargar (solo transform). */
+@keyframes crecer {
+  from {
+    transform: scaleX(0);
+  }
+}
+.barra {
+  transform-origin: left;
+  animation: crecer 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.barra-b {
+  animation-delay: 120ms;
+}
+.barra-c {
+  animation-delay: 240ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  .barra {
+    animation: none;
+  }
+}

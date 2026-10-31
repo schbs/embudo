@@ -1,0 +1,13 @@
+{
+  "prefijo": "Embudo - ",
+  "carpeta_id": "TU_CARPETA_DE_N8N",
+  "app_url": "https://embudo-topaz.vercel.app",
+  "webhook_path": "embudo-lead",
+  "token_hash": "SHA256_DE_TU_N8N_WEBHOOK_TOKEN",
+  "sheets_log_id": "TU_ID_DE_PLANILLA",
+  "slack_canal": "TU_CANAL_DE_SLACK",
+  "credenciales": {
+    "sheets": "TU_CREDENCIAL_DE_SHEETS",
+    "slack": "TU_CREDENCIAL_DE_SLACK"
+  }
+}

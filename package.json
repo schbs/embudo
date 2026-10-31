@@ -1,0 +1,53 @@
+{
+  "name": "embudo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lead → AI qualification → HubSpot + Slack for a fictional B2B marketing agency (demo project, fictional data).",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 3202",
+    "build": "next build",
+    "start": "next start -p 3202",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "fixtures": "tsx scripts/resumen-fixtures.ts",
+    "check-env": "node scripts/check-env.mjs",
+    "calificar:grabar": "tsx scripts/calificar-fixtures.ts",
+    "run-fixtures": "tsx scripts/run-fixtures.ts",
+    "hubspot:preparar": "tsx scripts/hubspot-preparar.ts",
+    "cleanup": "tsx scripts/cleanup.ts",
+    "n8n:deploy": "tsx scripts/n8n-deploy.ts",
+    "demo:sembrar": "tsx scripts/sembrar-demo.ts",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "test:e2e": "playwright test",
+    "capturas": "tsx scripts/capturas.ts",
+    "slack:probar": "tsx scripts/slack/probar.ts"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@secretlint/secretlint-rule-preset-recommend": "^9.3.4",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/luxon": "^3.7.6",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.4.3",
+    "lighthouse": "^12.8.2",
+    "secretlint": "^9.3.4",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_metadata": { "major_version": 2, "minor_version": 1 },
+  "display_information": {
+    "name": "Embudo",
+    "description": "Demo project (fictional data): qualified B2B leads with one-click follow-up.",
+    "background_color": "#1f2a37"
+  },
+  "features": {
+    "bot_user": { "display_name": "Embudo", "always_online": false }
+  },
+  "oauth_config": {
+    "scopes": { "bot": ["chat:write"] }
+  },
+  "settings": {
+    "interactivity": { "is_enabled": true, "request_url": "https://embudo-topaz.vercel.app/api/slack/interacciones" },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}

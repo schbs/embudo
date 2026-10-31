@@ -1,0 +1,41 @@
+{
+  "fecha": "2026-10-31T03:02:39.780Z",
+  "modo": "cuentas de prueba (HubSpot y Slack)",
+  "precision": {
+    "aciertos": 38,
+    "total": 40,
+    "porcentaje": 95
+  },
+  "crm": {
+    "antesDeTodo": {
+      "contactos": 0,
+      "empresas": 0,
+      "deals": 0,
+      "tareas": 0
+    },
+    "antesDeDuplicados": {
+      "contactos": 33,
+      "empresas": 1,
+      "deals": 23,
+      "tareas": 33
+    },
+    "despues": {
+      "contactos": 34,
+      "empresas": 1,
+      "deals": 24,
+      "tareas": 36
+    },
+    "creadosPorDuplicados": {
+      "contactos": 1,
+      "empresas": 0,
+      "deals": 1
+    },
+    "contactosNuevosLegitimos": 1,
+    "duplicadosCreados": 0
+  },
+  "puntaAPuntaMs": {
+    "p50": 5346,
+    "p95": 14540
+  },
+  "fallasDeIa": []
+}

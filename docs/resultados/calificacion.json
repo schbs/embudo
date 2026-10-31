@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-10-31T02:40:38.915Z",
+  "modelo": "gemini-3.5-flash-lite",
+  "versionPrompt": "2026-10-30.1",
+  "precision": {
+    "aciertos": 38,
+    "total": 40
+  },
+  "latenciaMs": {
+    "p50": 1391,
+    "p95": 26612
+  },
+  "tokens": {
+    "entrada": 23891,
+    "salida": 4253
+  }
+}
