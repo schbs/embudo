@@ -8,8 +8,8 @@ import path from "node:path";
 const DESTINO = ".env.local";
 const ORIGEN = path.join("..", "turnolisto", ".env.local");
 const COMPARTIDAS = ["GEMINI_API_KEY", "GEMINI_MODEL"];
-// La conexión a n8n Cloud es la misma cuenta para todos los proyectos: se toma de la propuesta de Red.
-const ORIGEN_N8N = path.join("..", "..", "PROPUESTA RED INMOBILIARIA", ".env");
+// La conexión a n8n Cloud es la misma cuenta para todos los proyectos: se toma del asistente demo (CHATBOT/).
+const ORIGEN_N8N = path.join("..", "..", "CHATBOT", ".env");
 const COMPARTIDAS_N8N = ["N8N_BASE_URL", "N8N_API_KEY"];
 
 const leer = (archivo) => {

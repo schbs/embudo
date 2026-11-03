@@ -31,6 +31,6 @@ grande, bordes e íconos 3:1).
 
 | Proyecto | Display | Hue (≥ 30°) | Layout | Movimiento | Forma | Difiere en |
 |---|---|---|---|---|---|---|
-| PROPUESTA RED INMOBILIARIA | ✓ Montserrat vs Space Grotesk | ✓ 25° vs 150° | ✓ catálogo vs tablero | ✓ Lenis vs contadores | ✓ | 5/5 |
-| PROPUESTA REY AUTOMOTOR | ✓ | ✓ 275° vs 150° (125°) | ✓ | ✓ | ✓ | 5/5 |
+| Propuesta inmobiliaria (no contratada) | ✓ Montserrat vs Space Grotesk | ✓ 25° vs 150° | ✓ catálogo vs tablero | ✓ Lenis vs contadores | ✓ | 5/5 |
+| Propuesta concesionaria (no contratada) | ✓ | ✓ 275° vs 150° (125°) | ✓ | ✓ | ✓ | 5/5 |
 | turnolisto | ✓ Lexend vs Space Grotesk | ✓ 188° vs 150° (38°) | ✓ dos columnas + ticket vs grilla densa | ✓ casi nulo vs contadores | ✓ radios grandes vs rectos | 5/5 |
